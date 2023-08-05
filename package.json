@@ -1,7 +1,7 @@
 {
   "name": "tailwind-modus",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Tailwindcss plugin to add a Modus theme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/jbend/tailwind-modus.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "package",
+    "tailwind",
+    "tailwindcss",
+    "modus",
+    "theme"
+  ],
+  "author": "Jeff Bendixsen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jbend/tailwind-modus/issues"
   },
-  "homepage": "https://github.com/jbend/tailwind-modus#readme"
+  "homepage": "https://github.com/jbend/tailwind-modus#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
